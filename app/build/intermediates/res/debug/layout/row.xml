@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:weightSum="9" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+              >
+
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" >
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" >
+            </EditText>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="9" >
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="0dp"
+               android:layout_weight="4.5"
+               android:gravity="fill_horizontal|fill_vertical"
+               android:includeFontPadding="false"
+               android:paddingBottom="3dp"
+               android:paddingTop="3dp"
+               android:paddingRight="5dp"
+               android:paddingLeft="5dp"
+               android:text="N/A"
+               android:textColor="@color/bbui_bg"
+               android:textColorHint="@color/bbui_bg"
+               android:textSize="12sp"
+               android:onClick="bracket" />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="0dp"
+               android:layout_weight="4.5"
+               android:includeFontPadding="false"
+               android:paddingBottom="3dp"
+               android:paddingTop="3dp"
+               android:paddingRight="5dp"
+               android:paddingLeft="5dp"
+               android:text="N/A"
+               android:textColor="@color/bbui_bg"
+               android:textSize="12sp" 
+               android:onClick="control" />
+                          
+         </LinearLayout>
+        </TableRow>
+</TableLayout>
+<!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckmeasureAppold/app/src/main/res/layout/row.xml -->

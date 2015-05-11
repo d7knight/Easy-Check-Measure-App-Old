@@ -1,0 +1,235 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/Button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="fill_horizontal"
+                android:onClick="viewer"
+                android:text="View All "
+                android:textColor="@color/bbui_bg"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/fill24"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:gravity="fill_horizontal"
+                android:onClick="send"
+                android:text="View "
+                android:textColor="@color/bbui_bg"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:gravity="fill_horizontal"
+                android:onClick="addrow"
+                android:text="Add Row"
+                android:textColor="@color/bbui_bg"
+                android:textSize="20dp" />
+
+        </TableRow>
+         <TableRow
+          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Company    "
+                android:textSize="14sp" />
+
+            <EditText
+              
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+         </TableRow>
+        <TableRow
+          
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Customer    "
+                android:textSize="14sp" />
+
+            <EditText
+              
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+         </TableRow>
+         <TableRow
+         
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:weightSum="4" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Address   "
+                android:textSize="14sp" />
+      
+            <EditText
+               
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:weightSum="9" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Room"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Width"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Length"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:maxWidth="50dp"
+                android:text="Special Note" />
+
+             <TextView
+                 android:id="@+id/textView1"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:maxWidth="50dp"
+                 android:text="Mount/Control"
+                 android:textSize="10dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
+            android:weightSum="9" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                  >
+
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+         
+            </EditText>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" >
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="9" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="4.5"
+                    android:gravity="fill_horizontal|fill_vertical"
+                    android:includeFontPadding="false"
+                    android:onClick="bracket"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="3dp"
+                    android:text="N/A"
+                    android:textColor="@color/bbui_bg"
+                    android:textColorHint="@color/bbui_bg"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="4.5"
+                    android:includeFontPadding="false"
+                    android:onClick="control"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="3dp"
+                    android:text="N/A"
+                    android:textColor="@color/bbui_bg"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView><!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckmeasureAppold/app/src/main/res/layout/activity_main.xml -->

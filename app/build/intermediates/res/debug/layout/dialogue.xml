@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="email"
+        android:textColor="@color/bbui_bg"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/send"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/send"
+        android:text="edit"
+        android:textColor="@color/bbui_bg"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/send"
+        android:text="delete"
+        android:textColor="@color/bbui_bg"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_toRightOf="@+id/delete"
+        android:text="back"
+        android:textColor="@color/bbui_bg"
+        android:textSize="20sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyCheckmeasureAppold/app/src/main/res/layout/dialogue.xml -->
